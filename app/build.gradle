@@ -5,6 +5,7 @@ plugins {
 android {
     namespace 'com.droidfix'
     compileSdk 34
+
     defaultConfig {
         applicationId "com.droidfix"
         minSdk 21
@@ -12,11 +13,13 @@ android {
         versionCode 10
         versionName "1.0.0"
     }
+
     buildTypes {
         release {
             minifyEnabled false
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
