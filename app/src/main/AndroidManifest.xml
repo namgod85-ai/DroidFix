@@ -10,7 +10,7 @@
         android:name=".App"
         android:allowBackup="false"
         android:label="DroidFix"
-        android:theme="@android:style/Theme.Material.NoActionBar">
+        android:theme="@style/Theme.AppCompat.NoActionBar"
         <provider
             android:name="rikka.shizuku.ShizukuProvider"
             android:authorities="com.droidfix.shizuku"
